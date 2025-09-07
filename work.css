@@ -1,0 +1,100 @@
+nav {
+  font-size: 16px;
+  flex-basis: 100%;
+  margin-left: auto;
+  justify-content: space-around;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 100px;
+  color: azure;
+}
+
+
+
+.hero {
+  background: url("drinkingwater.png") no-repeat center center/cover;
+  height: 90vh;          
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-left: 40px;
+  position: relative;
+}
+
+#homenav {
+  background-color: #ff8b07;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.hh1 a{
+  color: teal;
+  text-decoration: none; 
+  
+}
+
+.overlay h1{
+  color: #FF7E1F;
+  font-size: 70px;
+  margin-bottom: 5px;
+  line-height: 0.9;
+
+}
+
+.overlay p{
+  color: white;
+}
+
+.cta {
+  background-color: #ff7e1f;
+  border: 3px;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 15px;
+  transition-duration: 0.4s;
+  cursor: pointer; 
+  border: 2px solid#ff7e1f;
+}
+
+
+.cta1:hover {
+  background-color: #ff7e1f;
+  color: white;
+  transition: 0.2s;
+  font-size: 18px;
+}
+
+#homenav:hover {
+  background-color: #FF7E1F; 
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  transition-duration: 0.3s;
+
+}
+.logo-icon {
+  height: 40px;
+  vertical-align: middle; 
+  margin-right: 10px;     
+  position: relative;
+  top: -3px;
+}
